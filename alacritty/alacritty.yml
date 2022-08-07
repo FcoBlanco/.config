@@ -1,0 +1,145 @@
+window:
+    dimensions:
+        colums: 120
+        lines: 60
+    position:
+        x: 300
+        y: 300
+    padding:
+        x:  5
+        y:  5
+    class:
+        instance: Alacritty
+        general: Alacritty
+    dinamic_title: true
+
+url:
+    launcher: open -a Safari
+        
+scrolling:
+    history: 10000
+    multiplier: 3
+
+background.opacity: 0.7
+
+font:
+    normal:
+        family: Ubuntu Mono
+        style:  Regular
+    bold:
+        family: Ubuntu Mono
+        style:  Bold
+    italic:
+        family: Ubuntu Mono
+        style:  Italic
+    bold_italic:
+        family: Ubuntu Mono
+        style:  BoldItalic
+    size: 16
+draw_bold_text_with_bright_colors: true
+
+#font:
+#    normal:
+#        family: JetBrains Mono Nerd Font
+#        style:  Medium
+#    bold:
+#        family: JetBrains Mono Nerd Font
+#        style:  Bold
+#    italic:
+#        family: JetBrains Mono Nerd Font
+#        style:  MediumItalic
+#    bold_italic:
+#        family: JetBrains Mono Nerd Font
+#        style:  BoldItalic
+#    size: 14
+#draw_bold_text_with_bright_colors: true
+
+
+#colors:
+  # Default colors
+#  primary:
+#    background: '#300a24'
+#    foreground: '#eeeeec'
+
+  # Normal colors
+#  normal:
+#    black:   '#2e3436'
+#    red:     '#cc0000'
+#    green:   '#4e9a06'
+#    yellow:  '#c4a000'
+#    blue:    '#3465a4'
+#    magenta: '#75507b'
+#    cyan:    '#06989a'
+#    white:   '#d3d7cf'
+
+  # Bright colors
+#  bright:
+#    black:   '#555753'
+#    red:     '#ef2929'
+#    green:   '#8ae234'
+#    yellow:  '#fce94f'
+#    blue:    '#729fcf'
+#    magenta: '#ad7fa8'
+#    cyan:    '#34e2e2'
+#    white:   '#eeeeec'
+
+draw_bold_text_with_bright_colors: true
+
+# Cyberpunk-Neon colours
+colors:
+  # Default colours
+  primary:
+    background: '0x000b1e'
+    foreground: '0x0abdc6'
+
+  # Colors that should be used to draw the terminal cursor. If these are unset,
+  # the cursor colour will be the inverse of the cell colour.
+  # cursor:
+  #   text: '0x2e2e2d'
+  #   # text: '0x000000'
+  #   cursor: '0xffffff'
+
+# Colors (Nova)
+colors:
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#C5D4DD'
+
+  cursor:
+    text: '#212121'
+    cursor: '#C0C5CE'
+
+  # Normal colors
+  normal:
+    black:   '#3C4C55'
+    red:     '#DF8C8C'
+    green:   '#A8CE93'
+    yellow:  '#DADA93'
+    blue:    '#83AFE5'
+    magenta: '#9A93E1'
+    cyan:    '#7FC1CA'
+    white:   '#C5D4DD'
+
+  # Bright colors
+  bright:
+    black:   '#899BA6'
+    red:     '#F2C38F'
+    green:   '#A8CE93'
+    yellow:  '#DADA93'
+    blue:    '#83AFE5'
+    magenta: '#D18EC2'
+    cyan:    '#7FC1CA'
+    white:   '#E6EEF3'
+
+#cursor:
+#    style:
+#        shape: Block
+#        blinking: On
+#        blink_interval: 750
+
+live_config_reload: true
+
+key_bindings:
+    - { key: Return, mods: Control|Shift, action: SpawnNewInstance }
+    
