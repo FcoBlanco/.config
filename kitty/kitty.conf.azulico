@@ -1,0 +1,13 @@
+# BEGIN_KITTY_THEME
+# Fun Forrest
+include current-theme.conf
+# END_KITTY_THEME
+macos_option_as_alt yes
+map cmd+c        copy_to_clipboard
+map cmd+v        paste_from_clipboard
+map shift+insert paste_from_clipboard
+copy_on_select yes
+mouse_map ctrl+left press ungrabbed,grabbed mouse_click_url
+tab_bar_edge top
+
+include snazzy.conf
